@@ -31,10 +31,10 @@ h1 {
     width: 800px;
     margin: 0 auto;
     padding: 10px;
+    text-align: center;
     background-color: #4b4cba;
-    border: 1px solid #000;
 }
 
-.main-content {
+.not-header {
     padding-top: 70px;
 }
