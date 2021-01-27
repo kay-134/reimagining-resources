@@ -15,6 +15,12 @@
             font-family: 'Source Sans Pro', sans-serif;
         }
         
+        .container {
+            flex-wrap: nowrap | wrap | wrap-reverse;
+            flex-basis: | auto;
+            /* default auto */
+        }
+        
         .header {
             text-align: center;
         }
@@ -26,16 +32,17 @@
 </head>
 
 <body>
-    <div class="header">
-        <img src="templates/Cloud_Icon.png" alt="kayley Logo" width="600"></center>
-        <h1>Reimagining Resources </h1>
-        <h2>"A website full of resources to reimagine what an equitable education system would look like"</h2>
-    </div>
-    <center>
+    <div class="container">
+        <div class="header">
+            <img src="templates/Cloud_Icon.png" alt="kayley Logo" width="600">
+            <h1>Reimagining Resources </h1>
+            <h2>"A website full of resources to reimagine what an equitable education system would look like"</h2>
+        </div>
 
         <div class="footer">
             <img src="templates/kayley.png" alt="kayley Logo" width="100">
         </div>
+    </div>
 
 </body>
 
